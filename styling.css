@@ -5,3 +5,8 @@
   background-position: center center;
   height: 600px; 
 }
+/*logo size */
+.logo{
+width: 75px;
+height: 75px;
+}
