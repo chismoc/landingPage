@@ -1,0 +1,7 @@
+/*add a cover background for picture with fixed hieght */
+.jumbotron{
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 600px; 
+}
