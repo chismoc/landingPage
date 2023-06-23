@@ -10,3 +10,25 @@
 width: 75px;
 height: 75px;
 }
+.featured{
+  color: white;
+}
+/*set space between logo and featured content*/
+.featured h1{
+  padding-top:60px ;
+}
+
+.featured .btn{
+  font-weight: bold;
+  color: white;
+  background-color:rgba(252, 90, 9, 0.7);
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 160px;
+  margin-right: 15px;
+}
+.featured .btn:hover{
+  background-color:rgba(252, 90, 9);
+}
+
+/* for devices between 480px 768px */
