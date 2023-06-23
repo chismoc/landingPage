@@ -1,6 +1,6 @@
 /*add a cover background for picture with fixed hieght */
 .jumbotron{
-  background-image: url("images/background.jpg");
+  background-image: url("images/background.jpeg");
   background-size: 100% 100%;
   height: 600px; 
 }
@@ -29,6 +29,20 @@ height: 75px;
 .featured .btn:hover{
   background-color:rgba(252, 90, 9);
 }
+/*center align elements in trial section */
+.trial{
+  text-align: center;
+  padding: 20px 0 40px 0;
+  color: black;
+}
+/* set image size*/
+.trial img{
+width: 200px;
+height: 70px;
+margin: 20px;
+}
+
+/*resize trial images */
 
 /* for devices between 480px 768px */
 @media (min-width:480px) and (max-width: 992px){
@@ -38,8 +52,8 @@ height: 75px;
 
   }
   .logo{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
   .featured h1{
     padding-top: 30px;
@@ -54,16 +68,16 @@ height: 75px;
 /* for devices under 480px */
 @media (max-width: 480px){
   .jumbotron{
-    height: 410px;
+    height: 420px;
     margin: 0;
 
   }
   .logo{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
   .featured h1{
-    padding-top: 10px;
+    padding-top: 5px;
   }
   .featured p, .featured a{
     font-size: 13px;
@@ -71,4 +85,12 @@ height: 75px;
   .featured{
     text-align: center;
   }
+  /* set image size*/
+.trial img{
+  width: 90px;
+  height: 35px;
+  margin-top:5px;
+  margin-bottom: 0;
+  }
 }
+
